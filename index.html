@@ -2,28 +2,53 @@
 
 <html>
 
-    <head>
-        <title>Hacker News</title>
-    </head>
+<head>
+    <title>Hacker News</title>
+</head>
+<style>
+    #navigation ul {
+        display: flex;
+    }
 
-    <body>
-        <header>
-            <!--insert Y image here-->
-            <h1>
-                <a href="#">Hacker News</a>
-            </h1>
-            <nav>
-                <ul>
-                    <li><a href="#">new</a> |</li> 
-                    <li><a href="#">threads</a> |</li>
-                    <li><a href="#">comments</a> |</li>
-                    <li><a href="#">ask</a> |</li>
-                    <li><a href="#">jobs</a> |</li>
-                    <li><a href="#">submit</a></li>
-                </ul>        
-            </nav>
-        </header>
-        
-    </body>
+    #navigation ul li {
+        list-style: none;
+
+    }
+
+    #navigation ul li a {
+        text-decoration: none;
+        color: rgb(228, 20, 20);
+        display: block;
+        padding: 0px 13px;
+        border-radius: 13px;
+        margin-left: -6px;
+        font-size: 20px;
+    }
+
+    #navigation ul li a:hover {
+        background-color: white;
+        color: black;
+    }
+</style>
+
+<body>
+    <header>
+        <!--insert Y image here-->
+        <h1>
+            <a href="#">Hacker News</a>
+        </h1>
+        <div id="navigation">
+            <ul>
+                <li><a href="#">new</a> </li>
+                <li><a href="#">threads</a> </li>
+                <li><a href="#">comments</a></li>
+                <li><a href="#">ask</a> </li>
+                <li><a href="#">jobs</a> </li>
+                <li><a href="#">submit</a< /li>
+            </ul>
+        </div>
+    </header>
+
+</body>
 
 </html>
